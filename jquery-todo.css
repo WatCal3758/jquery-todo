@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+}
+
+.is-complete{
+    text-decoration: line-through;
+    color: grey;
+
+}
+
+#list{
+    list-style: none;
+}
