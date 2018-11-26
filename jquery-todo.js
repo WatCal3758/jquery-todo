@@ -5,6 +5,7 @@ $(document).ready(function() {
        const chore = $('#item');
        const val = chore.val();
        todoList(val);
+       chore = "";
      });
     
     $('#list').on('click', '.button1', function(event)
@@ -22,7 +23,7 @@ $(document).ready(function() {
 
     function todoList(val) {
       const list = $('#list');
-      list.append('<li>' + '<button class="button1">"X"</button>' + "  " + val + "  " + '<button class="button2">"✓"</button>' + '</li>');
+      list.append('<li>' + '<button class="button1">X</button>' + "  " + val + "  " + '<button class="button2">&#10003;</button>' + '</li>');
     }
     
   });
