@@ -5,7 +5,7 @@ $(document).ready(function() {
        const chore = $('#item');
        const val = chore.val();
        todoList(val);
-       chore = "";
+       val = "";
      });
     
     $('#list').on('click', '.button1', function(event)
